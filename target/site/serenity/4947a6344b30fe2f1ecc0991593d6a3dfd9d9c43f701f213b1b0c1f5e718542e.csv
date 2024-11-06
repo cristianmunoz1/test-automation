@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"As a user of the movie application, I want to edit an existing movie","Update a movie successfully","ERROR","2024-11-06T01:07:38.902338949-05:00[America/Bogota]","0.0","0.0"
-"As a user of the movie application, I want to edit a existing movie","Update a movie successfully","ERROR","2024-11-06T06:43:46.585979074-05:00[America/Bogota]","0.0","0.0"
-"As a user of the movie application, I want to edit a existing movie","Update a movie with invalid data","ERROR","2024-11-06T06:43:46.672100495-05:00[America/Bogota]","0.0","0.0"

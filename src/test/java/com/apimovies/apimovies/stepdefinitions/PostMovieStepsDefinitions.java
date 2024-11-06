@@ -32,7 +32,7 @@ public class PostMovieStepsDefinitions {
     @Then("the movie should be created successfully")
     public void theMovieShouldBeCreatedSuccessfully() {
         response.then()
-                .statusCode(200)  // Cambiado de 201 a 200 para coincidir con la API
+                .statusCode(200)
                 .body("id", notNullValue());
     }
 
