@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As an user of the movie application, I want to get all the information about a specific movie","Get information about one specific movie sending its id","SUCCESS","2024-11-04T20:28:27.189738513-05:00[America/Bogota]","0.0","0.41"
+"As an user of the movie application, I want to get all the information about a specific movie","Get a specific movie","SUCCESS","2024-11-06T07:22:47.473927617-05:00[America/Bogota]","0.0","0.42"
+"As an user of the movie application, I want to get all the information about a specific movie","Get all movies","SUCCESS","2024-11-06T07:22:48.782183617-05:00[America/Bogota]","0.0","0.0"

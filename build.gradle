@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.3.5'
 	id 'io.spring.dependency-management' version '1.1.6'
+	id 'net.serenity-bdd.serenity-gradle-plugin' version '3.9.8'
 }
 
 group = 'com.apimovies'
@@ -75,4 +76,8 @@ dependencies {
 
 tasks.bootJar {
 	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+test {
+	systemProperties System.getProperties()
+	finalizedBy aggregate
 }
