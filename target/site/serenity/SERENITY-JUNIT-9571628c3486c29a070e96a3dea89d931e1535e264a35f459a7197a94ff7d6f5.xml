@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="1" name="As a user of the movie application, I want to edit a existing movie" skipped="0" tests="2" time="0.05" timestamp="2024-11-06 12:58:50"><testcase name="Update a movie successfully"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+com.apimovies.apimovies.stepdefinitions.PutMovieStepDefinition.theMovieShouldBeUpdatedSuccessfully(PutMovieStepDefinition.java:33)
+✽.the movie should be updated successfully(file:///home/cristian/Documents/udea/calidad/apimovies/src/test/resources/features/put_movie.feature:10)
+</system-err></testcase><testcase name="Update a movie with invalid data"><error message="Cannot invoke &quot;io.restassured.response.Response.then()&quot; because &quot;this.response&quot; is null" type="java.lang.NullPointerException">Cannot invoke "io.restassured.response.Response.then()" because "this.response" is null</error><system-err>Cannot invoke "io.restassured.response.Response.then()" because "this.response" is null
+com.apimovies.apimovies.stepdefinitions.PostMovieStepsDefinitions.iShouldReceiveABadRequestError(PostMovieStepsDefinitions.java:66)
+✽.I should receive a bad request error(file:///home/cristian/Documents/udea/calidad/apimovies/src/test/resources/features/put_movie.feature:15)
+</system-err></testcase></testsuite>
